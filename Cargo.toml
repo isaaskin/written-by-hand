@@ -5,11 +5,11 @@ edition = "2024"
 description = "A tiny badge for code made the old-fashioned way."
 license = "MIT"
 rust-version = "1.88"
-repository = "https://github.com/OWNER/written-by-hand"
+repository = "https://github.com/isaaskin/written-by-hand"
 readme = "README.md"
 keywords = ["badge", "readme", "cli", "handwritten"]
 categories = ["command-line-utilities", "development-tools"]
-exclude = [".github/", "WRITTEN_BY_HAND_IMPLEMENTATION_PLAN.md"]
+exclude = [".github/", "site/", "WRITTEN_BY_HAND_*.md"]
 
 [[bin]]
 name = "wbh"

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="148" height="22" viewBox="0 0 148 22" role="img" aria-labelledby="wbh-title wbh-desc">
 <title id="wbh-title">Written by Hand</title>
-<desc id="wbh-desc">Self-declared handwritten coverage, reported by the project maintainer. Not verified, and not AI detection.</desc>
+<desc id="wbh-desc">A self-declared badge from the project maintainer. Not verified, and not AI detection.</desc>
 <rect width="148" height="22" rx="3" fill="#0d1117"/>
 <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11">
 <text x="8" y="14.8" fill="#6e9f74">~$</text>

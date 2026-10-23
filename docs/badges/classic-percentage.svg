@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="159" height="20" viewBox="0 0 159 20" role="img" aria-labelledby="wbh-title wbh-desc">
 <title id="wbh-title">Written by Hand: 75.0%</title>
-<desc id="wbh-desc">Self-declared handwritten coverage, reported by the project maintainer. Not verified, and not AI detection.</desc>
+<desc id="wbh-desc">A self-declared badge from the project maintainer. Not verified, and not AI detection.</desc>
 <clipPath id="wbh-r"><rect width="159" height="20" rx="3"/></clipPath>
 <g clip-path="url(#wbh-r)">
 <rect width="108" height="20" fill="#555"/>

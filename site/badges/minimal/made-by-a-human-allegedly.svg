@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="202" height="22" viewBox="0 0 202 22" role="img" aria-labelledby="wbh-title wbh-desc">
+<title id="wbh-title">Made by a Human, Allegedly</title>
+<desc id="wbh-desc">A self-declared badge from the project maintainer. Not verified, and not AI detection.</desc>
+<rect x="0.5" y="0.5" width="201" height="21" rx="4" fill="#fff" stroke="#d0d7de"/>
+<path transform="translate(8 5) scale(1)" d="M2 10l.6-2.4L8.4 1.8a.9.9 0 0 1 1.3 0l.5.5a.9.9 0 0 1 0 1.3L4.4 9.4zM7.4 2.8l1.8 1.8" fill="none" stroke="#57606a" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round"/>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11">
+<text x="25" y="14.8" fill="#24292f">Made by a Human, Allegedly</text>
+</g>
+</svg>

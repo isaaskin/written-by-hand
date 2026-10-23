@@ -29,7 +29,7 @@ jobs:
   check:
     runs-on: ubuntu-latest
     env:
-      WBH_REPO: OWNER/written-by-hand   # where wbh releases are published
+      WBH_REPO: isaaskin/written-by-hand   # where wbh releases are published
     steps:
       - uses: actions/checkout@v4
       - name: Install wbh
