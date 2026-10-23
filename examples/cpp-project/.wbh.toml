@@ -1,0 +1,52 @@
+# Written by Hand configuration.
+# Handwritten status is self-declared; wbh performs no verification or AI detection.
+version = 1
+
+[project]
+name = "Little Angel Synth"
+
+[badge]
+# One of: stamp, classic, terminal, pixel, minimal, coffee
+style = "stamp"
+# Show the handwritten percentage on the badge. It changes whenever code changes.
+show_percentage = false
+compact = false
+text = "Written by Hand"
+
+[scan]
+include = ["**/*"]
+# Exclude wins over include. Hidden paths, .git/ and .wbh/ are always skipped.
+# Data and docs formats are excluded so lockfiles don't swamp the numbers;
+# remove a line to opt that format in.
+exclude = [
+  "**/node_modules/**",
+  "**/target/**",
+  "**/vendor/**",
+  "**/third_party/**",
+  "**/build/**",
+  "**/dist/**",
+  "**/generated/**",
+  "**/docs/**",
+  "**/*.json",
+  "**/*.jsonc",
+  "**/*.yml",
+  "**/*.yaml",
+  "**/*.toml",
+  "**/*.md",
+]
+respect_gitignore = true
+max_file_bytes = 2097152
+
+[claims]
+# Whole files declared handwritten. Manage with `wbh mark` / `wbh unmark`.
+files = [
+  "src/dsp/Oscillator.cpp",
+]
+
+[report]
+# Also write .wbh/report.json, a machine-readable list of every scanned file.
+json = false
+
+[readme]
+enabled = true
+path = "README.md"

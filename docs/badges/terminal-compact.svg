@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="18" viewBox="0 0 132 18" role="img" aria-labelledby="wbh-title wbh-desc">
+<title id="wbh-title">Written by Hand</title>
+<desc id="wbh-desc">Self-declared handwritten coverage, reported by the project maintainer. Not verified, and not AI detection.</desc>
+<rect width="132" height="18" rx="3" fill="#0d1117"/>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10">
+<text x="6" y="12.5" fill="#6e9f74">~$</text>
+<text x="24" y="12.5" fill="#7ee787">Written by Hand</text>
+</g>
+<rect x="120" y="4" width="6" height="10" fill="#7ee787" opacity="0.8"/>
+</svg>

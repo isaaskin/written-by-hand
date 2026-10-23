@@ -1,0 +1,42 @@
+[package]
+name = "written-by-hand"
+version = "0.1.0"
+edition = "2024"
+description = "A tiny badge for code made the old-fashioned way."
+license = "MIT"
+rust-version = "1.88"
+repository = "https://github.com/OWNER/written-by-hand"
+readme = "README.md"
+keywords = ["badge", "readme", "cli", "handwritten"]
+categories = ["command-line-utilities", "development-tools"]
+exclude = [".github/", "WRITTEN_BY_HAND_IMPLEMENTATION_PLAN.md"]
+
+[[bin]]
+name = "wbh"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1.0.104"
+clap = { version = "4.6.7", features = ["derive"] }
+globset = "0.4.20"
+ignore = "0.4.33"
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+toml_edit = { version = "0.25.17", features = ["serde"] }
+
+[dev-dependencies]
+tempfile = "3.27.0"
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true
+
+# `cargo binstall written-by-hand` downloads the GitHub release archive instead of compiling.
+[package.metadata.binstall]
+pkg-url = "{ repo }/releases/download/v{ version }/wbh-{ target }{ archive-suffix }"
+bin-dir = "wbh-{ target }/{ bin }{ binary-ext }"
+pkg-fmt = "tgz"
+
+[package.metadata.binstall.overrides.x86_64-pc-windows-msvc]
+pkg-fmt = "zip"
